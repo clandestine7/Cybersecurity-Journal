@@ -1,0 +1,13 @@
+Day 1 - Learned how to query active network connections by using the command: ifconfig. Basic knowledge about 
+network interfaace card (NIC), media access control (MAC) (Hwaddr), and internet protocol (IP). For IP, researched about Bcast or
+broadcast address which sends information to all IP address on the subnet (haven't learned it yet). Netmask or network mask, 
+which determines what part of the IP add is connected to the local network. Show Network Statistics with netstat (old way to show network statistics)
+or use ss command for the modern and more readable format. Can use options like (-u -t -l -a). Use -u for UDP connections which means
+User Datagram Protocol, -t for Transmission Control Protocol (TCP) connections, -l for listening connections, -a for showing all sockets. 
+Used the command: iwconfig, to check wireless network devices. Assigned or SPOOFED a new IP Address using sudo ifconfig <network> <newip>
+for MAC Address, sudo ifconfig eth0 down, sudo ifconfig eth0 hw ether <add>, sudo ifconfig eth0 up. Assigning new IP address from DHCP server using
+sudo dhclient eth0 (had problems running this command). Manipulate DNS using dig <dns-server> <type> which I learned to use mx - mailserver, ns - nameserver
+change DNS server using the command mousepad. sudo mousepad /etc/resolv.conf, can do overwriting with echo command. Mapping your own IP addr
+with mousepad again using: sudo mousepad /etc/hosts. -EOD 
+
+Day 2 - 
