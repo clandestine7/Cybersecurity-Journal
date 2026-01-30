@@ -10,4 +10,13 @@ sudo dhclient eth0 (had problems running this command). Manipulate DNS using dig
 change DNS server using the command mousepad. sudo mousepad /etc/resolv.conf, can do overwriting with echo command. Mapping your own IP addr
 with mousepad again using: sudo mousepad /etc/hosts. -EOD 
 
-Day 2 - 
+Day 2 - Review about Advanced Packaging Tool (apt) which is used to download and install, update, amd upgrade new software packages with it. Using the
+sudo apt search <keyword>, you can check whether a package is available. To search for uncomplicated firewall (ufw), which is a powerful Linux firewall to protect
+your network, use the command: sudo apt search ufw. To install a software in your OS's defaulr repo in the terminal, use sudo apt install <packagename>. Then enter 
+the word Y to proceed install. When we want to remove a software simply use sudo apt remove <packagename>. Once again enter Y to confirm uninstallation. The remove
+command doesn't remove the configuration files, which means you can reinstall the same package and it will have the same configuration as before. If you want to remove 
+the package with the configuration files use the command sudo apt purge <package>. Enter Y to continue purging the software package with the configuration. Software repositories
+will periodically update with new software or versions and it will not automatically update. Updating is different from Upgrading, updating means simply to UPDATE the list of packages
+available for download from the repo meanwhile upgrading UPGRADES the package to the latest version in the repo. Use the command sudo apt update to update your individual system to search
+for available updates available. To upgrade existing packages on your system enter the command: sudo apt upgrade. This will upgrade every package on your system APT knows about,
+which means only those stored in the repository. - Finished @page 81
