@@ -1,1 +1,8 @@
+ifconfig - interface configuration, view and configure network interfaces, things like your IP address, MAC address, and whether a network interface is up or down.
+iwconfig - wireless interface configuration, used to view or configure Wi-Fi interfaces
+netstat - network statistics, shows network connections, routing tables, listening ports, and traffic stats.
+ss - socket statistics, modern, faster replacement for netstat
+dig - domain information groper, DNS lookup tool.
+mousepad - lightweight graphical text editor, basically a simple notepad-style editor.
+echo - prints text or variables to the terminal, commonly used in scripts or to display environment variables.
 
