@@ -8,3 +8,10 @@ mousepad
 echo
 
 Day 2 - 
+sudo apt search <keyword> 
+sudo apt search ufw
+sudo apt install <packagename>
+sudo apt remove <packagename>
+sudo apt purge <package>
+sudo apt update 
+sudo apt upgrade 
