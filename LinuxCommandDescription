@@ -5,4 +5,12 @@ ss - socket statistics, modern, faster replacement for netstat
 dig - domain information groper, DNS lookup tool.
 mousepad - lightweight graphical text editor, basically a simple notepad-style editor.
 echo - prints text or variables to the terminal, commonly used in scripts or to display environment variables.
+sudo apt search <keyword> - package search, searches available packages using a keyword in names and descriptions.
+sudo apt search ufw - package search, looks for packages related to ufw in the repository.
+sudo apt install <packagename> - package installation, downloads and installs the specified software package.
+sudo apt remove <packagename> - package removal, uninstalls the package but keeps its configuration files.
+sudo apt purge <packagename> - complete package removal, removes the package along with its configuration files.
+sudo apt update - package list update, refreshes the local list of available packages from repositories.
+sudo apt upgrade - system upgrade, upgrades all installed packages to their latest versions.
+
 
