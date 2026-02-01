@@ -7,11 +7,15 @@ dig
 mousepad 
 echo
 
-Day 2 - 
+Day 2 - Day 4 - 
 sudo apt search <keyword> 
 sudo apt search ufw
 sudo apt install <packagename>
 sudo apt remove <packagename>
 sudo apt purge <package>
 sudo apt update 
-sudo apt upgrade 
+sudo apt upgrade
+git clone <url> 
+
+Day 5 - 
+
