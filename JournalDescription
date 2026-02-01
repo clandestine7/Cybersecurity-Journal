@@ -19,4 +19,15 @@ the package with the configuration files use the command sudo apt purge <package
 will periodically update with new software or versions and it will not automatically update. Updating is different from Upgrading, updating means simply to UPDATE the list of packages
 available for download from the repo meanwhile upgrading UPGRADES the package to the latest version in the repo. Use the command sudo apt update to update your individual system to search
 for available updates available. To upgrade existing packages on your system enter the command: sudo apt upgrade. This will upgrade every package on your system APT knows about,
-which means only those stored in the repository. - Finished @page 81
+which means only those stored in the repository. - Finished @page 43
+
+Day 3 - null 
+
+Day 4 - Continued the Adding and Removing Software lesson, repositories is the servers that hold the software for a particular destribution of linux. Whick kali linux has 
+a large amoynt of security and hacking software. If you want to add a backup repository that your system can search through in case it doesn't find it a specific software in the Kali repository.
+The repos your system will search for software are stored in the sources.list file, with this you can alter this file and define which repos you want to download software. The sources.list file 
+is located at /etc/apt/sources.list and open it with any text editor in which we can use themousepad text editor. Again we'll be using the command sudo mousepad /etc/apt/sources.list. Newer Kali versions 
+no longer include GUI-based software installation. We can install one using the apt command, two of the most popular gui based installation tools are Synaptic and Gdebi. I'll be using the Synaptic tool. 
+Use the command sudo apt install synaptic. Once installed, you can start it in the Kali menu by going to Settings > Synaptic Package Manager. Sometimes the software you want isn't available, so maybe you can find it on github. 
+For example, you want to install a tool but it isn't in the Kali repository, you can use githhub to install it. If you found your tool at github, you can clone it to your system with the command git clone <githuburl>. 
+then enter ls -l to check of you've successfully downloaded the tool. 
