@@ -12,5 +12,6 @@ sudo apt remove <packagename> - package removal, uninstalls the package but keep
 sudo apt purge <packagename> - complete package removal, removes the package along with its configuration files.
 sudo apt update - package list update, refreshes the local list of available packages from repositories.
 sudo apt upgrade - system upgrade, upgrades all installed packages to their latest versions.
+git clone - repository copying, downloads a remote Git repository to your local machine.
 
 
