@@ -31,3 +31,8 @@ no longer include GUI-based software installation. We can install one using the 
 Use the command sudo apt install synaptic. Once installed, you can start it in the Kali menu by going to Settings > Synaptic Package Manager. Sometimes the software you want isn't available, so maybe you can find it on github. 
 For example, you want to install a tool but it isn't in the Kali repository, you can use githhub to install it. If you found your tool at github, you can clone it to your system with the command git clone <githuburl>. 
 then enter ls -l to check of you've successfully downloaded the tool. 
+
+Day 5 - Did a crash course on python network automation, did go through the fundamental basics such as printing, variables, printing and formatting, built in methods, lists, dictionaries, working with files, functions, conditional and
+loops, and finished off with interacting with network devices. Needed more time to learn and setup GNS3 so I can apply network automation scripts. Will be doing that in the next few days. 
+
+Day 6 - 
