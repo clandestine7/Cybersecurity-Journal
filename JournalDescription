@@ -37,4 +37,7 @@ loops, and finished off with interacting with network devices. Needed more time 
 
 Day 6 - Setup the Cisco Packet Tracer rather than using GNS3 for a more light-weight nature, only did the setup first, was busy doing school works, next goal is to continue to learn the CCNA 200-301 course. 
 
-Day 7 -
+Day 7 - Deployed a virtual cisco lab and deploying a multilayer switch then connecting it with 2 different laptops using ethernet cables (virtual) with a copper straight through cable, then configured the ipv4 
+to 192.168.1.1 (Laptop 1) then automatically set subnet mask to 255.255.255.0. Also changed the Mac address of the Laptops wish 0001.1111.1111. For Laptop 2 I changed the ipv4 to 192.168.1.2 then the subnet mast is the same.
+For both Laptops, I changed the default gateway to 192.168.1.254 then changed the DNS Server to 8.8.8.8 (google's dns). For the switch, I inserted a AC-POWER-SUPPLY at the back for it to turn on. I executed
+a few commands like pinging each laptop with it's IP the command ping (ip) then it should send a feedback. Also some few commands like ipconfig, ipconfig /all to see the mac address of the device. 
