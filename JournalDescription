@@ -41,3 +41,8 @@ Day 7 - Deployed a virtual cisco lab and deploying a multilayer switch then conn
 to 192.168.1.1 (Laptop 1) then automatically set subnet mask to 255.255.255.0. Also changed the Mac address of the Laptops wish 0001.1111.1111. For Laptop 2 I changed the ipv4 to 192.168.1.2 then the subnet mast is the same.
 For both Laptops, I changed the default gateway to 192.168.1.254 then changed the DNS Server to 8.8.8.8 (google's dns). For the switch, I inserted a AC-POWER-SUPPLY at the back for it to turn on. I executed
 a few commands like pinging each laptop with it's IP the command ping (ip) then it should send a feedback. Also some few commands like ipconfig, ipconfig /all to see the mac address of the device. 
+
+Day 8 - Built a web server network in packet tracer, then connecting it to the switch with a copper straight through cable so it can connect with the devices, I changed the IP, MAC, Default Gateway, and the DNS so I can easily ping the Server. 
+turned on and off the http and https to test if the web server will still work after turning it off, then modified the default web server with the helloworld.html file. I opened the web server in a device by pasting the IPv4 Address in the
+web browser of the device. The commands used were the same (ipconfig /all) and ping (ip). 
+
