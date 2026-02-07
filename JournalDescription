@@ -46,3 +46,12 @@ Day 8 - Built a web server network in packet tracer, then connecting it to the s
 turned on and off the http and https to test if the web server will still work after turning it off, then modified the default web server with the helloworld.html file. I opened the web server in a device by pasting the IPv4 Address in the
 web browser of the device. The commands used were the same (ipconfig /all) and ping (ip). 
 
+Day 9 - n
+
+Day 10 - Learned that there is user permissions like a regular user and a root user, you are in user mode by default but you are limited to use commands unlike switching to privileged mode using the command (en) short for enable. 
+when you enter en, your hostname will change from S1> to S1#, then if you want to switch to global configuration mode, type the command conf t short for configure terminal. you can use the key ? question mark to list the options of a certain command
+for example, you are in user mode, simply type ? then enter to scroll through more commands available on that mode. Another example to the ? key, is if you want to type something and you are not sure what are the available options are. For example is I'll
+use the command c? then it will show me available command that I can use. It's more like a suggestion option. Another simple command is show version, it will just show the version of the switch. Also when you want to exit from privileged mode, you can enter the
+command disa short for disable and for global configuration you can type exit or ctrl z. Also you can change your hostname by typing hostname <name>. One command that shows you the mac address of device connected to the switch is show mac address-table. 
+If you use the ? key after a command, and after the options it ends with <cr> which means carriage return, it means that you can use the command that you have typed. 
+
