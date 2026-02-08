@@ -55,3 +55,7 @@ use the command c? then it will show me available command that I can use. It's m
 command disa short for disable and for global configuration you can type exit or ctrl z. Also you can change your hostname by typing hostname <name>. One command that shows you the mac address of device connected to the switch is show mac address-table. 
 If you use the ? key after a command, and after the options it ends with <cr> which means carriage return, it means that you can use the command that you have typed. 
 
+Day 11 - ARP or Address Resolution Protocol is used to know the mac address of other devices on the same network, while switch learns the mac address when traffic is sent through the network. Use the command arp -a to see the mapping between the IP address of the server
+and its MAC address that was dynamically learned. arp -d lets you clear the arp cache but you need to run it on administrator. When a device is sending traffic through a server it becomes an arp packet and then sends that packet to the target IP. After reaching the switch. 
+It will be broadcasted to devices and confirm the destination of the target IP that will receive the packet. 
+
