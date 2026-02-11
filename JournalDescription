@@ -59,3 +59,10 @@ Day 11 - ARP or Address Resolution Protocol is used to know the mac address of o
 and its MAC address that was dynamically learned. arp -d lets you clear the arp cache but you need to run it on administrator. When a device is sending traffic through a server it becomes an arp packet and then sends that packet to the target IP. After reaching the switch. 
 It will be broadcasted to devices and confirm the destination of the target IP that will receive the packet. 
 
+Day 12 - null
+Day 13 - null
+
+Day 14 - Introduction to TCP/IP, OSI, and Hybrid Models. Memorized the layers of each models and got more understanding about TCP and UDP connections. Need to know more about the layers including the protocols and devices in each layers. 
+
+Day 15 - 
+
